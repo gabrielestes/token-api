@@ -17,6 +17,8 @@ gem 'bcrypt', '~> 3.1.7'
 # Enables encoding and decoding of HMACSHA256 tokens
 gem 'jwt'
 
+# Creates services between controller and the model to shorten the code
+gem 'simple_command'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
